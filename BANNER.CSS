@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    background-color: skyblue;
+    height: 60px;
+    align-items: center;
+    padding: 0px 30px;
+}
+.navbar ul{
+    display: flex;
+    list-style: none;
+}
+.navbar ul a{
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+}
+.banner{
+    height: 700px;
+    background-image:url(free-images-social.png) ;
+    background-size: cover;
+    background-position: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+.banner h1{
+    font-size: 50px;
+    color: rgb(7, 45, 59);
+}
+.banner p{
+    font: 25px;
+    color: rgb(14, 55, 71);
+}
+.btn{
+    background-color: yellow;
+    padding: 10px 30px;
+    border: none;
+    font-size: 18px;
+    color: black;
+    margin-top: 20px;
+}
